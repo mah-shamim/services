@@ -8,10 +8,10 @@ use Illuminate\Support\ServiceProvider;
 class RepositoryServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     public array $repositories = [
-//        interface => [
-//            'default' => eloquent repository,
-//            'mongodb' => mongodb repository,
-//        ],
+        //        interface => [
+        //            'default' => eloquent repository,
+        //            'mongodb' => mongodb repository,
+        //        ],
     ];
 
     /**
